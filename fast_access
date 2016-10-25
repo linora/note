@@ -1,0 +1,9 @@
+1. 快速访问github(中国大陆)
+
+C:\Windows\System32\drivers\etc\hosts文件中添加如下内容
+
+192.30.252.123 www.github.com
+103.245.222.133 assets-cdn.github.com
+185.31.18.133 avatars0.githubusercontent.com
+185.31.19.133 avatars1.githubusercontent.com
+185.31.16.184 github.global.ssl.fastly.net
