@@ -2,28 +2,22 @@ github push错误：
 
 error: The requested URL returned error: 
 403 Forbidden while accessing https://github.com/sunzhy/MyRepository/info/refs
-
 fatal: HTTP request failed
-1
-2
-3
-4
+
 解决方案：
 
+cd git_workdir
 ls -a
 vim .git/config
-1
-2
+
 修改:
 
 [remote "origin"]  
     url = https://github.com/xxx/MyRepository
-1
-2
+    
 为：
 
 [remote "origin"]  
     url = https://xxx@github.com/xxx/MyRepository
-1
-2
-再次git push，弹出框输入密码，即可提交
+
+再次git push，弹出框输入密码，即可提交。
