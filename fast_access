@@ -1,6 +1,6 @@
-1. 快速访问github(中国大陆)
+快速访问github(中国大陆)
 
-C:\Windows\System32\drivers\etc\hosts文件中添加如下内容
+C:\Windows\System32\drivers\etc\hosts 文件中添加如下内容
 
 192.30.252.123 www.github.com
 103.245.222.133 assets-cdn.github.com
